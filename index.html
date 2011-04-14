@@ -10,10 +10,28 @@
         <h1>Make It Local corporates</h1>
         <div id=map></div>
         
+        <!-- MICRO-TEMPLATES -->
+        <script type=text/tim id=template-infowindow>
+            <div class=infowindow>
+                <h2>{{title}}</h2>
+                {{content}}
+            </div>
+        </script>
         
-        <script src=dev/console.js></script>
+        <!-- DEV -->
+        <script>
+            // Console logging for debugging
+            function O(){
+                console.log.apply(console, arguments);
+            }
+        </script>
         
+        <!-- External project scripts -->
         <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src=vendor/underscore-min.js></script>
+        <script src=vendor/tim-lite.min.js></script>
+        
+        <!-- Project scripts -->
         <script src=data/redbridge-payments.js></script>
         <script src=makeitlocal-corporates.js></script>
     </body>
