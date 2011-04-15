@@ -97,7 +97,7 @@ function createMarkers(map, data){
 function init(){
     var data = REDBRIDGE_DATA,
         options = {
-            zoom: 8,
+            zoom: 14,
             center: REDBRIDGE_LATLNG,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         },
