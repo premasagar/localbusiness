@@ -6,5 +6,5 @@ We cycled through their [payments data](http://data.redbridge.gov.uk/View/financ
 
 We found that although many of the businesses were from the local area, most were from the outside. This is really just a starting point for getting a better understanding of the demographics of council economies.
 
-**Built by**: [@symroe](http://twitter.com/symroe) and [@premasagar](http://twitter.com/premasagar)
+**Built by**: [@symroe](http://twitter.com/symroe) and [@premasagar](http://twitter.com/premasagar)  
 **Built at**: [NESTA](http://www.nesta.org.uk), for [Make It Local](http://www.nesta.org.uk/areas_of_work/public_services_lab/make_it_local), as part of [Rewired State](http://rewiredstate.org).
