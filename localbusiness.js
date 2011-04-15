@@ -102,7 +102,9 @@ function init(){
             mapTypeId: google.maps.MapTypeId.ROADMAP
         },
         boundingBox = null,//getBoundingBoxFromPaymentsData(data),
-        map = new google.maps.Map(document.getElementById("map"), options);
+        map = new google.maps.Map(document.getElementById("map"), options),
+        infoElem = document.getElementById("info"),
+        closeinfoElem = document.getElementById("closeinfo");
     
     if (boundingBox){
         map.fitBounds(boundingBox);
@@ -113,6 +115,15 @@ function init(){
         createMarkers(map, data);
         data = null;
     }, 500);
+    
+    if (closeinfoElem.addEventListener){
+        document.getElementById("closeinfo").addEventListener("click", function(event){
+            infoElem.parentNode.removeChild(infoElem);
+        }, false);
+    }
+    else {
+        closeinfoElem.parentNode.removeChild(closeinfoElem);
+    }
     
     return map;
 }
