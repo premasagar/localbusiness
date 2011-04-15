@@ -1,5 +1,7 @@
 # Local Business?
 
+See: [dharmafly.com/localbusiness/](http://dharmafly.com/localbusiness/)
+
 This is an experiment in visualising council payments data. We used [Redbridge council](http://redbridge.gov.uk) as a case study, and wanted to illustrate whether the council employs local businesses, or if they use companies based far from the area.
 
 We cycled through their [payments data](http://data.redbridge.gov.uk/View/finance/payments-over-500), matching companies with their entries on [OpenCorporates.com](http://opencorporates.com), then geo-coded the companies' registered offices using [MySociety's MaPit](http://mapit.mysociety.org) and plotted the results on a map.
